@@ -1,0 +1,8 @@
+alias wit='\git --git-dir="${HOME}"/.warfiles/ --work-tree="${HOME}"'
+
+git clone --bare https://github.com/shahwar9/warfiles.git ${HOME}/.warfiles
+
+wit remote set-url origin git@github.com:shahwar9/warfiles.git
+
+# Only show tracked files.
+wit config --local status.showUntrackedFiles no
