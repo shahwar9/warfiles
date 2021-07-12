@@ -3,3 +3,5 @@ xclip
 vim
 neovim
 tmux
+texlive-most
+texmaker
